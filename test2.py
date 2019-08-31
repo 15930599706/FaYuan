@@ -1,0 +1,11 @@
+a=set()
+a.add("asd")
+a.add("eee")
+a.add("asd")
+b=set()
+b.add("asd")
+b.add("asd")
+c=a.union(b)
+reason={}
+reason['1']=a
+print(reason['1'])
